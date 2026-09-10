@@ -1,6 +1,7 @@
 sources:
   - VamiSans.glyphs
 familyName: "Vami Sans"
+cleanUp: true
 stat:
   VamiSans[wght].ttf:
   - name: Weight
