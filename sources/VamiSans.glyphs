@@ -1,5 +1,5 @@
 {
-.appVersion = "3434";
+.appVersion = "3532";
 .formatVersion = 3;
 DisplayStrings = (
 "Nested components:
@@ -53136,26 +53136,46 @@ name = Regular;
 },
 {
 axesValues = (
-150
+145
 );
-exports = 0;
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+}
+);
+}
+);
 instanceInterpolations = {
-m002 = 0.66667;
-m003 = 0.33333;
+m002 = 0.75;
+m003 = 0.25;
 };
-name = "Bold 150";
+name = Medium;
 weightClass = 500;
 },
 {
 axesValues = (
-160
+155
 );
-exports = 0;
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+}
+);
+}
+);
 instanceInterpolations = {
-m002 = 0.5;
-m003 = 0.5;
+m002 = 0.58333;
+m003 = 0.41667;
 };
-name = "Bold 160";
+name = SemiBold;
 weightClass = 600;
 },
 {
@@ -53178,9 +53198,30 @@ m002 = 0.33333;
 m003 = 0.66667;
 };
 isBold = 1;
-linkStyle = Regular;
 name = Bold;
 weightClass = 700;
+},
+{
+axesValues = (
+180
+);
+customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+}
+);
+}
+);
+instanceInterpolations = {
+m002 = 0.16667;
+m003 = 0.83333;
+};
+name = ExtraBold;
+weightClass = 800;
 },
 {
 axesValues = (
@@ -53197,7 +53238,6 @@ Location = 900;
 );
 }
 );
-exports = 0;
 instanceInterpolations = {
 m003 = 1;
 };
