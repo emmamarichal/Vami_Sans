@@ -1,9 +1,6 @@
 {
 .appVersion = "3532";
 .formatVersion = 3;
-DisplayStrings = (
-G
-);
 axes = (
 {
 name = Weight;
@@ -29,6 +26,19 @@ value = m002;
 {
 name = fsType;
 value = (
+);
+},
+{
+name = "meta Table";
+value = (
+{
+data = Latn;
+tag = dlng;
+},
+{
+data = Latn;
+tag = slng;
+}
 );
 }
 );
