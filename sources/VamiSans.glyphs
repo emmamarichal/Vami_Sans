@@ -1,6 +1,9 @@
 {
 .appVersion = "3532";
 .formatVersion = 3;
+DisplayStrings = (
+"„"
+);
 axes = (
 {
 name = Weight;
@@ -12421,9 +12424,9 @@ width = 600;
 unicode = 536;
 },
 {
-color = 6;
+color = 7;
 glyphname = Germandbls;
-lastChange = "2026-09-10 16:09:36 +0000";
+lastChange = "2026-10-07 14:27:25 +0000";
 layers = (
 {
 layerId = m004;
@@ -42118,31 +42121,33 @@ unicode = 8218;
 {
 color = 3;
 glyphname = quotedblbase;
-lastChange = "2026-10-07 14:24:44 +0000";
+lastChange = "2026-10-07 14:29:46 +0000";
 layers = (
 {
 layerId = m004;
 shapes = (
 {
+pos = (135,0);
 ref = comma;
 },
 {
 ref = comma;
 }
 );
-width = 188;
+width = 323;
 },
 {
 layerId = m002;
 shapes = (
 {
+pos = (178,0);
 ref = comma;
 },
 {
 ref = comma;
 }
 );
-width = 216;
+width = 394;
 },
 {
 layerId = m003;
